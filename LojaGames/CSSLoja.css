@@ -1,0 +1,83 @@
+body {
+    background-image: url('img/Lojafundo');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Inicio {
+    background-color: rebeccapurple;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: rebeccapurple;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fundo {
+    background-color: rgb(34, 34, 34);
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+.promosAlinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.promosBordas {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #333;
+}
+
+.prodLista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prodItem {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: left;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #333;
+}
+
+.prodSla {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape {
+    background-color: rebeccapurple;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.to-top a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}

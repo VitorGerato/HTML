@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CssNoticias.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="img/logo.png" alt="logosite" width="100px" height="75px" id="topo">
+        <nav>
+            <a href="FrontPage.html" class="botoesNav">Pagina Inicial</a>
+            <a href="#" class="botoesNav">FAQ</a>
+        </nav>  
+    </div>
+
+    <main>    
+        <div class="cadastro"> 
+            <div class="cadastroItems">
+                <h2>Cadastro</h2>
+                <form action="#" method="POST">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome"> <br>
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" id="endereco"> <br>
+                    <label for="idade">Idade: </label>
+                    <input type="number" name="idade" id="idade" min="0" max="120" step="1"> <br>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="fulano@email.com.br"> <br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(99)99999-9999"> <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Pagina de Noticias Ltda. Todos os direitos reservados. E-mail: contato@PNsuporte.com
+        </p>
+    </footer>
+
+</body>
+</html>
